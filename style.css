@@ -14,21 +14,25 @@
 
 body{
     background-color: var(--Yellow);
-    height: 100%;
     font-family: 'Figtree';
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh
+    min-height: 90vh;
+    font-size: 16px;
 }
 
 main{
     background-color: white;
-    border: solid 2px;
-    border-radius: 10px 10px;
-    width: 323px;
+    border: solid 1px;
+    border-radius: 15px 15px;
+    width: 400px;
     height: 530px;
-    box-shadow: 5px 5px black;
+    box-shadow: 10px 10px black;
+}
+
+main:hover{
+    box-shadow: 20px 20px black;
 }
 
 .Card_Content{
@@ -36,6 +40,55 @@ main{
     flex-direction: column;
     padding-left: 6%;
     padding-right: 6%
+}
+
+#Article_Pic{
+    margin-top: 7%;
+    border-radius: 15px 15px;
+}
+
+.category{
+    background-color: var(--Yellow);
+    font-weight:800;
+    border-radius: 5px 5px;
+    margin-right: 67%;
+    margin-top: 7%;
+    padding: 2% 5% 2%;
+}
+
+.published_date{
+    font-weight: 600;
+    margin-top: 4%;
+}
+
+.title{
+    font-size: 1.7em;
+    font-weight: 800;
+    margin-top: 4%;
+}
+.title:hover{
+    color:var(--Yellow)
+}
+
+.description{
+    color:grey;
+    margin-top: 4%;
+    line-height: 1.4em;
+}
+
+.profil{
+    display: flex;
+    margin-top: 7%;
+    align-items: center;
+}
+
+.profil img{
+    width: 10%;
+}
+
+#name{
+    font-weight: 800;
+    margin-left: 3%;
 }
 
 footer { 
@@ -47,3 +100,15 @@ footer {
 }
 
 footer a { color: hsl(228, 45%, 44%) }
+
+@media screen and (max-width: 475px){
+    main{
+        width: 350px;
+        height: 480px;
+        font-size: 0.9em;
+    }
+
+    .title{
+        font-size: 1.5em;
+    }
+}
