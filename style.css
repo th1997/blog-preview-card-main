@@ -18,8 +18,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 90vh;
-    font-size: 16px;
+    min-height: 100vh;
+    font-size: 1rem;
 }
 
 main{
@@ -42,7 +42,7 @@ main:hover{
     padding-right: 6%
 }
 
-#Article_Pic{
+.Article_Pic{
     margin-top: 7%;
     border-radius: 15px 15px;
 }
@@ -62,7 +62,7 @@ main:hover{
 }
 
 .title{
-    font-size: 1.7em;
+    font-size: 1.7rem;
     font-weight: 800;
     margin-top: 4%;
 }
@@ -73,7 +73,7 @@ main:hover{
 .description{
     color:grey;
     margin-top: 4%;
-    line-height: 1.4em;
+    line-height: 1.4rem;
 }
 
 .profil{
@@ -86,7 +86,7 @@ main:hover{
     width: 10%;
 }
 
-#name{
+.name{
     font-weight: 800;
     margin-left: 3%;
 }
@@ -105,10 +105,10 @@ footer a { color: hsl(228, 45%, 44%) }
     main{
         width: 350px;
         height: 480px;
-        font-size: 0.9em;
+        font-size: 0.9rem;
     }
 
     .title{
-        font-size: 1.5em;
+        font-size: 1.4rem;
     }
 }
