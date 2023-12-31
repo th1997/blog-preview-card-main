@@ -82,7 +82,7 @@ main:hover{
 }
 
 .profil img{
-    width: 10%;
+    max-width: 2rem;
 }
 
 .name{
